@@ -1,0 +1,14 @@
+.center {
+    text-align: center;
+}
+
+#start, #submit {
+    display: block;
+    margin-top: 10px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#countdown, #answer, #question {
+    display: none;
+}

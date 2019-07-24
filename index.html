@@ -3,188 +3,188 @@
 <meta charset="UTF-8">
 <head>
     <title>Totally Trivial Trivia!</title>
-    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/stlye.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!--Main Menu-->
-<div class="container" id="main-menu">
+<div class="container jumbotron" id="main-menu">
     <div class="row">
         <div class="col-md-12">
-            <div class="jumbotron">
-                <h1 class="display-4">Totally Trivial Trivia</h1>
-                <p class="lead">Time remaining : 60 hours</p>
-                <hr class="my-4">
-                <div class="container">
-                    <div class="row">
-                        <!--Question 1-->
-                        <fieldset class="form-group">
-                    <h5>What color are aircraft black boxes?</h5>
-                    <div class="row">
-                        <div>
-                            <div class="col-sm-12">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="q1-a1" value="option1">
-                                    <label class="form-check-label" for="q1-a1">Pitch Black</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="q1-a2" value="option2">
-                                    <label class="form-check-label" for="q1-a2">Light Blue</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="q1-a3" value="option3">
-                                    <label class="form-check-label" for="q1-a3">Bright Orange</label>
+            <h1 class="display-4 center">Totally Trivial Trivia</h1>
+            <a class="btn btn-primary btn-lg" href="#" role="button" id="start">Start</a>
+            <p class="lead center" id="countdown">Time remaining : 15 seconds</p>
+            <hr class="my-4">
+            <!--Questions-->
+            <div class="container" id="question">
+                <div class="row">
+                    <!--Question 1-->
+                    <fieldset class="form-group">
+                        <h5>What color are aircraft black boxes?</h5>
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question1" id="q1-a1" value="option1">
+                                        <label class="form-check-label" for="q1-a1">Pitch Black</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question1" id="q1-a2" value="option2">
+                                        <label class="form-check-label" for="q1-a2">Light Blue</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question1" id="q1-a3" value="1">
+                                        <label class="form-check-label" for="q1-a3">Bright Orange</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </fieldset>
-                    </div>
-                    <div class="row">
-                        <!--Question 2-->
-                        <fieldset class="form-group">
-                            <h5>In which U.S. state was Tennessee Williams born?</h5>
-                            <div class="row">
-                                <div>
-                                    <div class="col-sm-12">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q2-a1" value="option1">
-                                            <label class="form-check-label" for="q2-a1">Mississippi</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q2-a2" value="option2">
-                                            <label class="form-check-label" for="q2-a2">Massachusetts</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q2-a3" value="option3">
-                                            <label class="form-check-label" for="q2-a3">Tennessee</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
-                    <div class="row">
-                        <!--Question 3-->
-                        <fieldset class="form-group">
-                            <h5>What kind of animal is the jackrabbit?</h5>
-                            <div class="row">
-                                <div>
-                                    <div class="col-sm-12">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q3-a1" value="option1">
-                                            <label class="form-check-label" for="q3-a1">Rabbit</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q3-a2" value="option2">
-                                            <label class="form-check-label" for="q3-a2">Hare</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q3-a3" value="option3">
-                                            <label class="form-check-label" for="q3-a3">Jack</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
-                    <div class="row">
-                        <!--Question 4-->
-                        <fieldset class="form-group">
-                            <h5>Before Mount Everest was discovered, what was the highest mountain in the world?</h5>
-                            <div class="row">
-                                <div>
-                                    <div class="col-sm-12">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q4-a1" value="option1">
-                                            <label class="form-check-label" for="q4-a1">Mount Everest</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q4-a2" value="option2">
-                                            <label class="form-check-label" for="q4-a2">Haleakala</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q4-a3" value="option3">
-                                            <label class="form-check-label" for="q4-a3">Denali</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
-                    <div class="row">
-                        <!--Question 5-->
-                        <fieldset class="form-group">
-                            <h5>How many months have 28 days in them?</h5>
-                            <div class="row">
-                                <div>
-                                    <div class="col-sm-12">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q5-a1" value="option1">
-                                            <label class="form-check-label" for="q5-a1">12</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q5-a2" value="option2">
-                                            <label class="form-check-label" for="q5-a2">1</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="q5-a3" value="option3">
-                                            <label class="form-check-label" for="q5-a3">5</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </p>
+                    </fieldset>
                 </div>
+                <div class="row">
+                    <!--Question 2-->
+                    <fieldset class="form-group">
+                        <h5>In which U.S. state was Tennessee Williams born?</h5>
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question2" id="q2-a1" value="option1">
+                                        <label class="form-check-label" for="q2-a1">Mississippi</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question2" id="q2-a2" value="option2">
+                                        <label class="form-check-label" for="q2-a2">Massachusetts</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question2" id="q2-a3" value="1">
+                                        <label class="form-check-label" for="q2-a3">Tennessee</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="row">
+                    <!--Question 3-->
+                    <fieldset class="form-group">
+                        <h5>What kind of animal is the jackrabbit?</h5>
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question3" id="q3-a1" value="option1">
+                                        <label class="form-check-label" for="q3-a1">Rabbit</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question3" id="q3-a2" value="1">
+                                        <label class="form-check-label" for="q3-a2">Hare</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question3" id="q3-a3" value="option3">
+                                        <label class="form-check-label" for="q3-a3">Jack</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="row">
+                    <!--Question 4-->
+                    <fieldset class="form-group">
+                        <h5>Before Mount Everest was discovered, what was the highest mountain in the world?</h5>
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question4" id="q4-a1" value="1">
+                                        <label class="form-check-label" for="q4-a1">Mount Everest</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question4" id="q4-a2" value="option2">
+                                        <label class="form-check-label" for="q4-a2">Haleakala</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question4" id="q4-a3" value="option3">
+                                        <label class="form-check-label" for="q4-a3">Denali</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="row">
+                    <!--Question 5-->
+                    <fieldset class="form-group">
+                        <h5>How many months have 28 days in them?</h5>
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question5" id="q5-a1" value="1">
+                                        <label class="form-check-label" for="q5-a1">12</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question5" id="q5-a2" value="option2">
+                                        <label class="form-check-label" for="q5-a2">1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="question5" id="q5-a3" value="option3">
+                                        <label class="form-check-label" for="q5-a3">5</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <a class="btn btn-primary btn-lg" href="#" role="button" id="submit">Submit</a>
+            </div>
+            <div class="container">
+                <h1 id="answer">You answered 5/5 correct!</h1>
             </div>
         </div>
     </div>
 </div>
-    <!-- Modal for when game is won -->
-    <div class="modal fade" id="game-won-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="game-won-modalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="game-won-modalLabel">Congrats!</h5>
-                </div>
-                <div class="modal-body" id="text-in-modal0">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary back-to-main-menu">Back to Main Menu</button>
-                    <button type="button" class="btn btn-primary play-again">Play Again!</button>
-                </div>
+<!-- Modal for when game is won -->
+<div class="modal fade" id="game-won-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="game-won-modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="game-won-modalLabel">Congrats!</h5>
+            </div>
+            <div class="modal-body" id="text-in-modal0">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary back-to-main-menu">Back to Main Menu</button>
+                <button type="button" class="btn btn-primary play-again">Play Again!</button>
             </div>
         </div>
     </div>
-    <!-- Modal for when game is lost -->
-    <div class="modal fade" id="game-lost-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="game-lost-modalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="game-lost-modalLabel">Oh no...</h5>
-                </div>
-                <div class="modal-body" id="text-in-modal1">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary back-to-main-menu">Back to Main Menu</button>
-                    <button type="button" class="btn btn-primary play-again">Play Again!</button>
-                </div>
+</div>
+<!-- Modal for when game is lost -->
+<div class="modal fade" id="game-lost-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="game-lost-modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="game-lost-modalLabel">Oh no...</h5>
+            </div>
+            <div class="modal-body" id="text-in-modal1">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary back-to-main-menu">Back to Main Menu</button>
+                <button type="button" class="btn btn-primary play-again">Play Again!</button>
             </div>
         </div>
     </div>
+</div>
 </div>
 </body>
-<script src="assets/javascript/app.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js"></script>
 </html>
