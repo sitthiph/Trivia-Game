@@ -12,3 +12,7 @@ The goal of this application is to use the logic time of Javascripts and learn h
 
 ### UI/UX
 * Implemented Bootstrap library for styling components and building responsive layout
+
+### Demo
+
+Trivia Game is deployed on Heroku. Please check it out [here](https://sitthiph.github.io/TriviaGame/).
