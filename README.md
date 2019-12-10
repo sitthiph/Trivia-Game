@@ -1,3 +1,5 @@
+![Trivia Game](https://i.ibb.co/tsM5z1P/Untitled.png)
+
 # TriviaGame
 
 Play this game [here](https://sitthiph.github.io/TriviaGame/). 
