@@ -8,7 +8,7 @@ $('document').ready(function() {
         for (let i = 1; i <= 5; i++) {
             let radio = document.getElementsByName("question" + i);
             for (let j = 0; j < radio.length; j++) {
-                if (radio[j].value == "1") {
+                if (radio[j].value === "1") {
                     if (radio[j].checked) {
                         answer++;
                     }
