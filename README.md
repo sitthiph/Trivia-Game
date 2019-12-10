@@ -16,7 +16,7 @@ The goal of this application is to use the logic time of Javascripts and learn h
 
 ### Demo
 
-Trivia Game is deployed on Heroku. Please check it out [here](https://sitthiph.github.io/TriviaGame/).
+Trivia Game is deployed on Heroku. Please check it out [here](https://sitthiph.github.io/Trivia-Game/).
 
 ### Install
 
