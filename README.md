@@ -9,3 +9,6 @@ Trivia is a type of game in which players (who can play individually or in a tea
 ### Motivation
 
 The goal of this application is to use the logic time of Javascripts and learn how to use to efficiently with jQuery to manipulate DOM HTML.
+
+### UI/UX
+* Implemented Bootstrap library for styling components and building responsive layout
